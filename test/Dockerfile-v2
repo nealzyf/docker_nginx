@@ -1,6 +1,5 @@
 FROM ubuntu:trusty
 
-ENV TEST test
-
+RUN echo "hello"
 
 CMD ifconfig
