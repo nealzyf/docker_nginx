@@ -1,6 +1,6 @@
 #FROM debian:jessie
 #base on the nginx image
-FROM nealzyf/docker-nginx:v1.00
+FROM nealzyf/docker-nginx:First
 
 # persistent / runtime deps
 RUN apt-get update && apt-get install -y ca-certificates curl libxml2 --no-install-recommends && rm -r /var/lib/apt/lists/*
