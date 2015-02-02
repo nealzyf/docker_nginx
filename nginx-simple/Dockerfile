@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
-ENV http_proxy http://www-proxy.lmc.ericsson.se:8080/
-ENV https_proxy http://www-proxy.lmc.ericsson.se:8080/
+#ENV http_proxy http://www-proxy.lmc.ericsson.se:8080/
+#ENV https_proxy http://www-proxy.lmc.ericsson.se:8080/
 ENV DEBIAN_FRONTEND noninteractive
 
 MAINTAINER neal zhu <zyf880607@163.com>
